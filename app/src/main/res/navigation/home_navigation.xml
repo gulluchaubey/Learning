@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.learning.navigationTablayoutDemo.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+
+    </fragment>
+    <fragment
+        android:id="@+id/scanImageFragment"
+        android:name="com.example.learning.navigationTablayoutDemo.ui.scanImage.ScanImageFragment"
+        android:label="fragment_scan_image"
+        tools:layout="@layout/fragment_scan_image" />
+    <fragment
+        android:id="@+id/whereYouTravellingFragment"
+        android:name="com.example.learning.navigationTablayoutDemo.ui.whereYouTravelling.WhereYouTravellingFragment"
+        android:label="fragment_where_you_travelling"
+        tools:layout="@layout/fragment_where_you_travelling" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.learning.navigationTablayoutDemo.ui.notification.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.learning.navigationTablayoutDemo.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.learning.navigationTablayoutDemo.ui.setting.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting"/>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.learning.navigationTablayoutDemo.ui.about.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about"/>
+</navigation>

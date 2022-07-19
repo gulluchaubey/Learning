@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settingFragment"
+        android:title="setting"
+        android:icon="@mipmap/back_icon"/>
+    <item
+        android:id="@+id/aboutFragment"
+        android:title="about"
+        android:icon="@mipmap/back_icon"/>
+</menu>
