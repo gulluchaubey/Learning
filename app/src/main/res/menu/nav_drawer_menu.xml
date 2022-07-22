@@ -7,4 +7,8 @@
         android:id="@+id/aboutFragment"
         android:title="about"
         android:icon="@mipmap/back_icon"/>
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@mipmap/back_icon"/>
 </menu>
