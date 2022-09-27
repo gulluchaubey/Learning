@@ -18,7 +18,7 @@ import dagger.hilt.android.AndroidEntryPoint
 class DetailsFragment : Fragment() {
 
     lateinit var binding:FragmentDetailsBinding
-    val viewModel : MovieViewModel by viewModels()
+    private val viewModel : MovieViewModel by viewModels()
     val args : DetailsFragmentArgs by navArgs()
 
     override fun onCreate(savedInstanceState: Bundle?) {
